@@ -8,7 +8,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIView * aView = [UIView alloc] initWithFrame:CGRectMake:(0,0,320,480)];
+    UIView * aView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
