@@ -1,4 +1,3 @@
-//vinech
 
 #import "AppDelegate.h"
 
